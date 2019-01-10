@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
                 progressDialog.dismiss();
 
                 if (response.isSuccessful()) {
-                    tv_lokasi_value.setText(response.body().getCity()+", "+response.body().getItems().get(0).getDateFor());
+                    tv_lokasi_value.setText(response.body().getState()+", "+response.body().getItems().get(0).getDateFor());
                     tv_fajr_value.setText(response.body().getItems().get(0).getFajr());
                     tv_shurooq_value.setText(response.body().getItems().get(0).getShurooq());
                     tv_dhuhr_value.setText(response.body().getItems().get(0).getDhuhr());

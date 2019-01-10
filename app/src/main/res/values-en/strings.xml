@@ -1,0 +1,7 @@
+<resources>
+        <string name = "app_name">SholatYuk</string>
+         <string name = "action_settings">Settings</string>
+         <string name = "lbl_current_language">Language</string>
+         <string name = "lbl_button">Change Language</string>
+
+</resources>
